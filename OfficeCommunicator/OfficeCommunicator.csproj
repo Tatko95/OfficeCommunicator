@@ -41,7 +41,16 @@
     <CodeAnalysisRuleSet>OfficeCommunicator.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup>
-	<AssemblyOriginatorKeyFile>OfficeCommunicatorStrongName.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>OfficeCommunicatorStrongName.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -99,7 +108,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="OfficeCommunicator.ruleset" />
-	<None Include="OfficeCommunicatorStrongName.snk" />
+    <None Include="OfficeCommunicatorStrongName.snk" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
