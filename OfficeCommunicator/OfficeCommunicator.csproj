@@ -40,6 +40,9 @@
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>OfficeCommunicator.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+  <PropertyGroup>
+	<AssemblyOriginatorKeyFile>OfficeCommunicatorStrongName.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -96,6 +99,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="OfficeCommunicator.ruleset" />
+	<None Include="OfficeCommunicatorStrongName.snk" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
