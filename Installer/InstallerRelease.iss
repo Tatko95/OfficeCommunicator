@@ -7,8 +7,8 @@
 
 
 #define InstallDir "..\Installer\"
-#define Dir "..\OfficeCommunicator\Bin\Debug"
-#define Path "..\OfficeCommunicator\Bin\Debug\OfficeCommunicator.exe"
+#define Dir "..\OfficeCommunicator\Bin\Release"
+#define Path "..\OfficeCommunicator\Bin\Release\OfficeCommunicator.exe"
 #define PathToNet "E:\Study\KPI\3 eo?n\OfficeCommunicator\Installer\"
 #define Name GetStringFileInfo(Path, "ProductName")
 #define Publisher GetStringFileInfo(Path, "CompanyName")
@@ -34,7 +34,7 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir={#InstallDir}
-OutputBaseFilename={#MyAppName} v{#AppVersion} Debug Setup
+OutputBaseFilename={#MyAppName} v{#AppVersion} Release Setup
 Compression=lzma
 SolidCompression=yes
 ;AppName={#Name}
